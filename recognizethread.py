@@ -7,6 +7,7 @@ import speech_recognition as sr
 MY_EMAIL = "bob.cunningham@tobiidynavox.com"
 TALKEY_TOKEN = "LrP9mYDhCbdFOzIIQEfH/E+XtvRUbqzSBSaZdOF07N512kJSV8H/i1TTxMUNIfCu"
 FLUENTY_API_URL = 'https://api.fluenty.co/talkey/reply'
+NOTHING = "foo"
 
 class recognizeThread (threading.Thread):
     def __init__(self, callbk):
